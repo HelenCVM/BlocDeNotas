@@ -18,6 +18,8 @@ public class Stiky {
         // TODO code application logic here
         System.out.println("PRIMERAS CONFIGURACIONS DE STIKY");
         System.out.println("HACIENDO COMMIT DESDE LINUX Y WINDOWS ");
+        System.out.println("-----Funcionamiento-----");
+                
     }
     
 }
