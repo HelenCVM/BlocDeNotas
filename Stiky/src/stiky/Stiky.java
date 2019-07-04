@@ -17,6 +17,7 @@ public class Stiky {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("PRIMERAS CONFIGURACIONS DE STIKY");
+        System.out.println("HACIENDO COMMIT DESDE LINUX ");
     }
     
 }
