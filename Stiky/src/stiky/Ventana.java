@@ -89,6 +89,7 @@ public class Ventana extends javax.swing.JFrame {
 
     private void jRadioButtonMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButtonMenuItem1ActionPerformed
         // TODO add your handling code here:
+        bloc.setText("");
     }//GEN-LAST:event_jRadioButtonMenuItem1ActionPerformed
 
     /**
