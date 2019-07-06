@@ -56,14 +56,29 @@ public class Ventana extends javax.swing.JFrame {
 
         copiar.setSelected(true);
         copiar.setText("Copiar");
+        copiar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                copiarActionPerformed(evt);
+            }
+        });
         opciones.add(copiar);
 
         cortar.setSelected(true);
         cortar.setText("Cortar");
+        cortar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cortarActionPerformed(evt);
+            }
+        });
         opciones.add(cortar);
 
         pegar.setSelected(true);
         pegar.setText("Pegar");
+        pegar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                pegarActionPerformed(evt);
+            }
+        });
         opciones.add(pegar);
 
         jMenuBar1.add(opciones);
@@ -91,6 +106,21 @@ public class Ventana extends javax.swing.JFrame {
         // TODO add your handling code here:
         bloc.setText("");
     }//GEN-LAST:event_jRadioButtonMenuItem1ActionPerformed
+
+    private void copiarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_copiarActionPerformed
+        // TODO add your handling code here:
+        bloc.copy();
+    }//GEN-LAST:event_copiarActionPerformed
+
+    private void cortarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cortarActionPerformed
+        // TODO add your handling code here:
+        bloc.cut();
+    }//GEN-LAST:event_cortarActionPerformed
+
+    private void pegarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pegarActionPerformed
+        // TODO add your handling code here:
+        bloc.paste();
+    }//GEN-LAST:event_pegarActionPerformed
 
     /**
      * @param args the command line arguments
