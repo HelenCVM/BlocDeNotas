@@ -105,11 +105,14 @@ public class Ventana extends javax.swing.JFrame {
     private void jRadioButtonMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButtonMenuItem1ActionPerformed
         // TODO add your handling code here:
         bloc.setText("");
+        
+        System.out.println("En blanco");
     }//GEN-LAST:event_jRadioButtonMenuItem1ActionPerformed
 
     private void copiarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_copiarActionPerformed
         // TODO add your handling code here:
         bloc.copy();
+        System.out.println("Copiar");
     }//GEN-LAST:event_copiarActionPerformed
 
     private void cortarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cortarActionPerformed
