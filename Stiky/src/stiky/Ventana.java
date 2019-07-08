@@ -46,6 +46,7 @@ public class Ventana extends javax.swing.JFrame {
         jMenuItem6 = new javax.swing.JMenuItem();
         jMenuItem7 = new javax.swing.JMenuItem();
         jMenuItem8 = new javax.swing.JMenuItem();
+        jMenu1 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -160,6 +161,9 @@ public class Ventana extends javax.swing.JFrame {
         jMenu2.add(jMenuItem8);
 
         jMenuBar1.add(jMenu2);
+
+        jMenu1.setText("Formato letra");
+        jMenuBar1.add(jMenu1);
 
         setJMenuBar(jMenuBar1);
 
@@ -280,6 +284,7 @@ public class Ventana extends javax.swing.JFrame {
     private javax.swing.JTextArea bloc;
     private javax.swing.JRadioButtonMenuItem copiar;
     private javax.swing.JRadioButtonMenuItem cortar;
+    private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
