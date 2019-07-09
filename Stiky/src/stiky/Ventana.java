@@ -59,6 +59,8 @@ public class Ventana extends javax.swing.JFrame {
         bloc.setRows(5);
         jScrollPane1.setViewportView(bloc);
 
+        jMenuBar1.setBackground(new java.awt.Color(162, 40, 40));
+
         opciones.setText("Opciones");
 
         jRadioButtonMenuItem1.setSelected(true);
@@ -245,42 +247,42 @@ public class Ventana extends javax.swing.JFrame {
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
         // TODO add your handling code here:
         
-        bloc.setBackground(Color.red);
+        bloc.setForeground(Color.red);
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
         // TODO add your handling code here:
-        bloc.setBackground(Color.pink);
+        bloc.setForeground(Color.pink);
     }//GEN-LAST:event_jMenuItem2ActionPerformed
 
     private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
         // TODO add your handling code here:
-        bloc.setBackground(Color.black);
+       bloc.setForeground(Color.black);
     }//GEN-LAST:event_jMenuItem3ActionPerformed
 
     private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem4ActionPerformed
         // TODO add your handling code here:
-        bloc.setBackground(Color.yellow);
+        bloc.setForeground(Color.yellow);
     }//GEN-LAST:event_jMenuItem4ActionPerformed
 
     private void jMenuItem5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem5ActionPerformed
         // TODO add your handling code here:
-        bloc.setBackground(Color.green);
+        bloc.setForeground(Color.green);
     }//GEN-LAST:event_jMenuItem5ActionPerformed
 
     private void jMenuItem6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem6ActionPerformed
         // TODO add your handling code here:
-        bloc.setBackground(Color.magenta);
+        bloc.setForeground(Color.magenta);
     }//GEN-LAST:event_jMenuItem6ActionPerformed
 
     private void jMenuItem7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem7ActionPerformed
         // TODO add your handling code here:
-        bloc.setBackground(Color.blue);
+        bloc.setForeground(Color.blue);
     }//GEN-LAST:event_jMenuItem7ActionPerformed
 
     private void jMenuItem8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem8ActionPerformed
         // TODO add your handling code here:
-        bloc.setBackground(Color.orange);
+        bloc.setForeground(Color.orange);
     }//GEN-LAST:event_jMenuItem8ActionPerformed
 
     private void jMenuItem9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem9ActionPerformed
